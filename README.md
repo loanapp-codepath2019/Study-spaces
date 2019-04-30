@@ -86,10 +86,45 @@ Allows users to rent a room at someones house and use it as a study space.
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+| Property     | Type     | Description |
+| --------     | -------- | -------- |
+| Image        | File     | Image that user posts    |
+| Rate         | String   | Price of room per hour
+| Distance     | String   | Distance away from your current location
+| Availability | String   | Available times for the current day
+
+
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| Image    | File     | Image that user posts     |
+| Rate     | String   | Price of room per hour|
+| Profile Picture| File | Image of the host|
+| Host Bio | String | Brief description about host|
+| Amenities | String | List of resources/tools that come with the room
+| Timings | String | List of all the available timings that the host lends out the room |
+
+
+
+|  Property | Type | Description |
+| -------- | -------- | -------- |
+| Booking Confirmation     | String     | Confirms your booking     |
+| Study Room Description | String | Shows location of study rooom |
+| Address | String | Address of the study room |
+| Time | String | The times that the room is reserved for| 
+| Image | File | Image of the user |
+| Name | String | Description of the user such as name and bio |
+| Total Amount | String | Shows the total amount due along with a breakup of the charges |
+
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+| CRUD | HTTP Verb | Example |
+| -------- | -------- | -------- |
+| Read     | GET     | Fetching avaiable study rooms for the user to view     |
+| Update | PUT | Update the users credit card information |
+| Delete | DELETE | Delete the users credit card information |
