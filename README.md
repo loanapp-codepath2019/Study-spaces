@@ -74,12 +74,7 @@ Allows users to rent a room at someones house and use it as a study space.
 * Settings
 
 ## Wireframes
-<img src="https://i.imgur.com/B1uc1fI.jpg" width=200>
-<img src="https://i.imgur.com/fRxqSlS.jpg" width=200>
-<img src="https://i.imgur.com/vYQXQtO.jpg" width=200>
-<img src="https://i.imgur.com/EA0VS62.jpg" width=200>
-<img src="https://i.imgur.com/hASnvat.jpg" width=200>
-<img src="https://i.imgur.com/56Ddwur.jpg" width=200>
+<img src="https://i.imgur.com/ELS8M5G.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://i.imgur.com/8dQW64u.png" width=800>
