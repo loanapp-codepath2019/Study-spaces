@@ -124,10 +124,29 @@ Booking Confirmation Screen
 
 
 ### Networking
-
+#### List of network requests by screen
+   - Login/SignUp Screen
+      - (Read/GET) Query logged in user object
+      - (Create/POST) Create a new user object
+      - (Update/Put) Update logged in user object
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user password
+   - Room Listings Screen
+      - (Read/GET) Query all study rooms with matching time, date and location based on user input
+   - Room Details Screen
+      - (Read/GET) Create a new post object
+   - Booking Confirmed Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+   - Payments Screen
+      - (Read/GET) Query all Payment objects with user as main
+      - (Create/POST) Create a new Payment object
+      - (Update/PUT) Update Payment information for a particular payment
+      - (Delete) Delete a Payment object
 
 | CRUD | HTTP Verb | Example |
 | -------- | -------- | -------- |
-| Read     | GET     | Fetching avaiable study rooms for the user to view     |
+| Read     | GET     | Fetching available study rooms for the user to view     |
 | Update | PUT | Update the users credit card information |
 | Delete | DELETE | Delete the users credit card information |
