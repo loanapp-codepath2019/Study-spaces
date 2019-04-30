@@ -98,17 +98,19 @@ Room Listings Screen
 
 
 Room Details Screen
+
 | Property | Type | Description |
 | -------- | -------- | -------- |
 | Image    | File     | Image that user posts     |
 | Rate     | String   | Price of room per hour|
 | Profile Picture| File | Image of the host|
 | Host Bio | String | Brief description about host|
-| Amenities | String | List of resources/tools that come with the room
+| Amenities | String | List of resources/tools that come with the room |
 | Timings | String | List of all the available timings that the host lends out the room |
 
 
 Booking Confirmation Screen
+
 |  Property | Type | Description |
 | -------- | -------- | -------- |
 | Booking Confirmation     | String     | Confirms your booking     |
