@@ -87,6 +87,7 @@ Allows users to rent a room at someones house and use it as a study space.
 
 ## Schema 
 ### Models
+Room Listings Screen
 
 | Property     | Type     | Description |
 | --------     | -------- | -------- |
@@ -96,7 +97,7 @@ Allows users to rent a room at someones house and use it as a study space.
 | Availability | String   | Available times for the current day
 
 
-
+Room Details Screen
 | Property | Type | Description |
 | -------- | -------- | -------- |
 | Image    | File     | Image that user posts     |
@@ -107,7 +108,7 @@ Allows users to rent a room at someones house and use it as a study space.
 | Timings | String | List of all the available timings that the host lends out the room |
 
 
-
+Booking Confirmation Screen
 |  Property | Type | Description |
 | -------- | -------- | -------- |
 | Booking Confirmation     | String     | Confirms your booking     |
