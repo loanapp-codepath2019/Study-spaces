@@ -122,27 +122,32 @@ Booking Confirmation Screen
 ### Networking
 #### List of network requests by screen
    - Login/SignUp Screen
-      - (Read/GET) Query logged in user object
-      - (Create/POST) Create a new user object
-      - (Update/Put) Update logged in user object
+      - (ReadU/GET) Query logged in user object
+      - (CreateU/POST) Create a new user object
    - Profile Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user password
+      - (ReadU/GET) Query logged in user object
+      - (UpdateU/PUT) Update user password
    - Room Listings Screen
-      - (Read/GET) Query all study rooms with matching time, date and location based on user input
+      - (ReadR/GET) Query all availiable study rooms with matching time, date and location based on user input
    - Room Details Screen
-      - (Read/GET) Create a new post object
+      - (ReadR/GET) Query for all details of a single selected study room 
    - Booking Confirmed Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
+      - (UpdateR/PUT) Update avaliability of the room
    - Payments Screen
-      - (Read/GET) Query all Payment objects with user as main
-      - (Create/POST) Create a new Payment object
-      - (Update/PUT) Update Payment information for a particular payment
-      - (Delete) Delete a Payment object
+      - (ReadP/GET) Query all Payment objects with user as main
+      - (CreateP/POST) Create a new Payment object
+      - (UpdateP/PUT) Update Payment information for a particular payment
+      - (DeleteP/DELETE) Delete a Payment object
 
 | CRUD | HTTP Verb | Example |
 | -------- | -------- | -------- |
-| Read     | GET     | Fetching available study rooms for the user to view     |
-| Update | PUT | Update the users credit card information |
-| Delete | DELETE | Delete the users credit card information |
+| ReadU     | GET     | Get user data, login status, bookings, etc     |
+| CreateU | POST | Create a new User |
+| UpdateU | PUT | Update the users info(like password) |
+| ReadR     | GET     | Fetching available study rooms for the user to view     |
+| ReadR1     | GET     | Fetching all details of a single study room for the user to view     |
+| UpdateR | PUT | Update the room's availiability |
+| ReadP     | GET     | Fetching all current payment info for a specific user     |
+| CreateP | POST | Create a new payment method(example: a credit card) |
+| UpdateP | PUT | Update the users credit card information |
+| DeleteP | DELETE | Delete the users credit card information |
