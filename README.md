@@ -82,6 +82,7 @@ Allows users to rent a room at someones house and use it as a study space.
 <img src="https://i.imgur.com/56Ddwur.jpg" width=200>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/8dQW64u.png" width=800>
 
 ### [BONUS] Interactive Prototype
 
